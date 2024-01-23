@@ -249,7 +249,7 @@ def get_output_dim(dataset):
 
 def get_folder_name(dataset):
     if dataset == 'cub':
-        return 'cub'
+        return 'CUB_200_2011'
     elif dataset == 'cifar100':
         return 'cifar-100-python'
     elif dataset == 'cifar10':

@@ -9,12 +9,12 @@ mahalanobis: true
 division_power: 3
 linear_epochs: 5000
 reinit: false # True/False
-num_attributes: full # [16, 32, 64, 128, 256, 512]
+num_attributes: 400 # [16, 32, 64, 128, 256, 512]
 seed: 0
 
 # optimization parameters
 lr: 0.01
-batch_size: 32
+batch_size: 4096
 epochs: 4000
 
 # model structure
