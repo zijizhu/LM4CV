@@ -20,7 +20,7 @@ import transformers
 from collections import defaultdict
 from dataset import ScoreDataset, ImagenetA
 import sklearn
-from sentence_transformers import SentenceTransformer
+# from sentence_transformers import SentenceTransformer
 from torch.utils.data import DataLoader
 
 
